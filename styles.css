@@ -26,10 +26,10 @@ a{
 
 li {
 	float:left;
-    border-right:1px solid;
+    /* border-right:1px solid;
     border-left:1px solid;
     border-top:1px solid;
-    border-bottom:1px solid;
+    border-bottom:1px solid; */
     display: inline
 }
 li a {
@@ -116,7 +116,10 @@ h3{
     /* transform: translate(-5%, -475%); */
 }
 
-
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
 
 /* h3{
     font-weight: bold;
