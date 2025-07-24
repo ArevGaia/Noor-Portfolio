@@ -119,8 +119,13 @@ h3{
 }
 
 .pdf {
-    width: 100%;
+    width: calc(75%);
     aspect-ratio: 4 / 3;
+    transform: translate(15%, 0%);
+}
+
+.real_link{
+    text-decoration: underline;
 }
 
 /* h3{
