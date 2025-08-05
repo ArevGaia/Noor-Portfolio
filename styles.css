@@ -8,9 +8,9 @@ a{
     text-decoration: none;
 }
 
-.m_right {
+/* .m_right {
     float:right
-}
+} */
 
 .m_active{
     background-color: black;
@@ -101,13 +101,18 @@ h3{
 .head_name{
     transform: translate(-15%, -525%);
     width: 500px;
-    /* border-right: black solid; */
+    border-right: black solid;
 }
 
 .inner{
-    transform: translate(-1%, -500%);
-    height: 30px;
-    /* border-bottom: black solid; */
+    transform: translate(107%, -300%);
+    height: 40px;
+    width: 700px;
+    /* width: 20px; */
+    border-top: black solid;
+    border-right: black solid;
+    border-left: black solid;
+    border-bottom: black solid;
 }
 
 .top{
@@ -129,12 +134,18 @@ h3{
 }
 
 .dropdown-content {
-  /* display: none; */
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    /* display: none; */
+    /* position: absolute; */
+    float: left;
+    border-top: black solid;
+    border-right: black solid;
+    border-left: black solid;
+    border-bottom: black solid;
+    background-color: #f9f9f9;
+    max-width: 120px;
+    transform: translate(-100%, 35%);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
