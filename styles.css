@@ -8,9 +8,9 @@ a{
     text-decoration: none;
 }
 
-/* .m_right {
+.m_right {
     float:right
-} */
+}
 
 .m_active{
     background-color: black;
