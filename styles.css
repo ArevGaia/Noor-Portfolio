@@ -101,18 +101,18 @@ h3{
 .head_name{
     transform: translate(-15%, -525%);
     width: 500px;
-    border-right: black solid;
+    /* border-right: black solid; */
 }
 
 .inner{
-    transform: translate(107%, -300%);
+    transform: translate(107%, -350%);
     height: 40px;
     width: 700px;
     /* width: 20px; */
-    border-top: black solid;
+    /* border-top: black solid;
     border-right: black solid;
     border-left: black solid;
-    border-bottom: black solid;
+    border-bottom: black solid; */
 }
 
 .top{
@@ -132,29 +132,6 @@ h3{
 .real_link{
     text-decoration: underline;
 }
-
-.dropdown-content {
-    /* display: none; */
-    /* position: absolute; */
-    float: left;
-    border-top: black solid;
-    border-right: black solid;
-    border-left: black solid;
-    border-bottom: black solid;
-    background-color: #f9f9f9;
-    max-width: 120px;
-    transform: translate(-100%, 35%);
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/* .dropdown:hover .dropdown-content {
-  display: block;
-  /* float: none; 
-} */
 
 /* h3{
     font-weight: bold;
