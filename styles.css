@@ -101,6 +101,7 @@ h3{
 .head_name{
     transform: translate(-15%, -525%);
     width: 500px;
+    color: #6e4c61;
     /* border-right: black solid; */
 }
 
