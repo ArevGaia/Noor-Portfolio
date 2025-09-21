@@ -1,5 +1,5 @@
 body{
-    background-color: #77BB8C;
+    background-color: #c5dbc6;
     color: black;
 }
 
@@ -50,16 +50,16 @@ li a {
     display: block;
     float: left;
     position: relative;
-    padding-left: 50px;
+    padding-left: 5%;
 }
 
 img {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1%;
 }
 
 .info{
-    max-width: 100px;
+    max-width: 10%;
     margin: auto;
 }
 
@@ -79,28 +79,28 @@ h3{
 
 .bio{
     position: relative;
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 800px;
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 50%;
 }
 
 .header{
     text-align: center;
     color: white;
     height: 175px;
-    border-bottom: black solid;
+    /* border-bottom: black solid; */
     /* position: fixed; */
     /* top: 10; */
     width: 100%;
 }
 
 .head_photo{
-    height: 150px;
+    height: 80%;
 }
 
 .head_name{
     transform: translate(-15%, -525%);
-    width: 500px;
+    width: 40%;
     color: #6e4c61;
     /* border-right: black solid; */
 }
@@ -147,7 +147,7 @@ h3{
 .cv_header{
     /* border-right: black solid; */
     width: 100%;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .coming_soon{
