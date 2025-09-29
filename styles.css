@@ -99,14 +99,20 @@ h3{
 }
 
 .head_name{
-    transform: translate(-15%, -525%);
-    width: 40%;
+    /* transform: translate(-15%, -525%); */
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    width: 50%;
     color: #6e4c61;
-    /* border-right: black solid; */
+    /* border-bottom: black solid; */
 }
 
 .inner{
-    transform: translate(107%, -350%);
+    /* transform: translate(107%, -350%); */
+    position: absolute;
+    top: 5%;
+    right: 3%;
     height: 40px;
     width: 700px;
     /* width: 20px; */
