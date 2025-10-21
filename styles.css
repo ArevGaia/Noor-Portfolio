@@ -150,6 +150,17 @@ h3{
     /* border-right: black solid; */
     width: 100%;
     text-align: center;
+    text-decoration: underline;
+    /* color: #0c5f02; */
+}
+
+/* h2{
+    color: #0c5f02;
+} */
+
+.reading_link{
+    color: #0c5f02;
+    text-decoration: underline;
 }
 
 .cv_header{
