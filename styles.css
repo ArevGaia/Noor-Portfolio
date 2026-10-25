@@ -1,7 +1,7 @@
 body{
     background-color: #b9556e6a;
     color: #7d0140;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 #hello{
@@ -110,6 +110,7 @@ h3{
     left: 1%;
     width: 50%;
     color: #6e4c61;
+    font-family: serif;
     /* border-bottom: black solid; */
 }
 
@@ -194,7 +195,11 @@ footer{
 }
 
 .title{
-    text-decoration: underline;
+    font-weight: bold;
+}
+
+.author{
+    font-weight: 100;
 }
 
 .abstract{
