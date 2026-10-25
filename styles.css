@@ -1,10 +1,15 @@
 body{
-    background-color: #c5dbc6;
-    color: black;
+    background-color: #b9556e6a;
+    color: #7d0140;
+    font-family: sans-serif;
+}
+
+#hello{
+    font-family: serif;
 }
 
 a{
-    color: black;
+    color: #7d0140;
     text-decoration: none;
 }
 
@@ -159,7 +164,7 @@ h3{
 } */
 
 .reading_link{
-    color: #0c5f02;
+    color: #7d0140;
     text-decoration: underline;
 }
 
@@ -177,6 +182,44 @@ h3{
 .contact_form{
     text-align: center;
 }
+
+footer{
+    text-align: center;
+}
+
+.research{
+    height: 550px;
+    /* border-top: 3px solid #FA1522; */
+    text-align: center;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.abstract{
+    font-weight: 100;
+}
+
+.keywords{
+    font-weight: 100;
+}
+
+
+.article{
+    float: left;
+    position: relative;
+    display: block;
+    margin-bottom: 0px;
+    /* margin-left: 1.5 cm;
+    margin-right: 1.5 cm; */
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+    /* border-right: 3px solid; */
+    text-align: left;
+}
+
 
 /* h3{
     font-weight: bold;
